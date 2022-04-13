@@ -14,40 +14,91 @@
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/newstyle.css">
-
-    <script>
-        if (window.innerWidth <= 991) {
-            window.location.href = "new1movil.html";
-        //window.location = "index1.html";
-    }
-    </script>
-
 </head>
 
+<script>
+    if (window.innerWidth > 991) {
+      /*   window.location.href = "new1.html"; */
+    //window.location = "index1.html";
+}
+</script>
 <body>
     <header class="header">
         <nav class="navbar navbar-home navbar-expand-lg  fixed-top navbar-light ">
             <div class="container  d-flex ">
-                <a class="navbar-brand logo" href="index.html">
-                    <img src="assets/icons/logos/logo.svg" alt="logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
+
+
+
+                    <div class="col-12 col-md-1 panelmenu0">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="col-12 col-md-4 panelmenu">
+                        <a class="navbar-brand logo" href="index.html" style="">
+                            <img src="assets/icons/logos/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-7 panelmenu3" align="right">
+                        <!-- ********* -->
+
+                        <div class="btn-group btn-lang" style="background: #f1f1f1; padding: 11px; border-radius: 10px 10px 10px 10px;">
+
+                            <div class="items">
+                            <img src="assets/newimg/icon-shop.png" alt="" class="" widtd="20" height="20" style="margin-right: 20px; margin-top: 10px;">
+                            <div class="dropdown">
+                                <img src="assets/newimg/icon-notificacion.png" alt="" widtd="20" height="20"style="margin-right: 20px; margin-top: 10px;">
+                                <div class="dropdown-content">
+                                    <table>
+                                        <tr style="background-color: #c9c9c9; height: 10px; padding: 30px;">
+                                            <td style="width: 100px;">Mensaje</td>
+                                            <td style="width: 30px;"> <img src="assets/newimg/clock.png" alt="" class="img-fluid"></td>
+                                            <td>05:00</td>
+                                        </tr>
+                                        <tr style="background-color: #c9c9c9; height: 10px; padding: 30px;">
+                                            <td style="width: 100px;">Mensaje</td>
+                                            <td style="width: 30px;"> <img src="assets/newimg/clock.png" alt="" class="img-fluid"></td>
+                                            <td>05:00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <img src="assets/newimg/icon_plus.png" alt="" widtd="20" height="20"style="margin-right: 25px; margin-top: 10px;">
+                            <div class="dropdown">
+                                <img src="assets/newimg/perfil.png" alt="" widtd="40" height="40">
+
+                                <div class="dropdown-content">
+                                    <ul>
+                                        <li><img src="assets/newimg/icon_per.png" alt="" class="img-fluid" widtd="20"> Perfil</li>
+                                        <li><img src="assets/newimg/icon_mensaje.png" alt="" class="img-fluid" widtd="20"> Mensaje</li>
+                                        <li><hr></li>
+                                        <li><img src="assets/newimg/icon_temporada.png" alt="" class="img-fluid" widtd="20"> Temporada</li>
+                                        <li><img src="assets/newimg/icon_rombo.png" alt="" class="img-fluid" widtd="20"> Academia Plus</li>
+                                        <li><img src="assets/newimg/icon_like.png" alt="" class="img-fluid" widtd="20"> Libros Recomendados</li>
+                                        <li><hr></li>
+                                        <li><img src="assets/newimg/icon_pluss.png" alt="" class="img-fluid" widtd="20"> Añadir Proyecto</li>
+                                        <li><img src="assets/newimg/icon_pencil.png" alt="" class="img-fluid" widtd="20"> Foro</li>
+                                        <li><hr></li>
+                                        <li><img src="assets/newimg/icon_comunidad.png" alt="" class="img-fluid" widtd="20"> Comunidad</li>
+                                        <li><hr></li>
+                                        <li><img src="assets/newimg/icon_configuracion.png" alt="" class="img-fluid" widtd="20"> Configuracion cuenta</li>
+                                        <li><img src="assets/newimg/icon_notificacion.png" alt="" class="img-fluid" widtd="20"> Notificaciones</li>
+                                        <li><img src="assets/newimg/icon_test.png" alt="" class="img-fluid" widtd="20"> Ayuda</li>
+                                        <li><img src="assets/newimg/icon_atras.png" alt="" class="img-fluid" widtd="20"> Salir</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <!-- ***** -->
+                    </div>
+               
+
+
+                <!-- ******* -->
                 <div class=" collapse navbar-collapse" id="navbarSupportedContent">
-                   <!--  <div class="d-none d-lg-flex menu-icon-compact mx-xl-5">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div> -->
                     <div class="d-none d-lg-flex menu-icon-compact mx-xl-5">
-                       <!--  <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
@@ -55,7 +106,8 @@
                         <span></span>
                         <span></span>
                         <span></span>
-                        <span></span> -->
+                        <span></span>
+                        <span></span>
                     </div>
 
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2 justify-content-center">
@@ -79,22 +131,6 @@
 
 
 
-                    <div class="btn-group btn-lang" style="background: #f1f1f1; padding: 11px; border-radius: 10px 10px 10px 10px;">
-                        <img src="assets/newimg/icon-shop.png" alt="" class="" width="20" height="20" style="margin-right: 20px; margin-top: 10px;">
-                        <img src="assets/newimg/icon-notificacion.png" alt="" width="20" height="20"style="margin-right: 20px; margin-top: 10px;">
-                        <img src="assets/newimg/icon_plus.png" alt="" width="20" height="20"style="margin-right: 25px; margin-top: 10px;">
-                        <img src="assets/newimg/perfil.png" alt="" width="40" height="40">
-
-
-                        <!-- <button type="button" class="lang" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-                              ESP
-                            </button>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li><button class="dropdown-item" type="button">Es</button></li>
-                            <li><button class="dropdown-item" type="button">En</button></li>
-
-                        </ul> -->
-                    </div>
 
                 </div>
         </nav>
@@ -119,7 +155,6 @@
                 <div class=" row ">
 
                     <!-- **** -->
-                   
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
@@ -160,31 +195,65 @@
 <!--                     <h5 style="color: #08907a;">Desafios</h5> -->
 
                     <div class="col-md-12"> 
-                        <!-- *** -->
-                        <ul class="nav justify-content-center sombras bordes" style="">
-                            <li class="nav-item sombras" style="background: #f1f1f1;   padding-right: 60px;  box-shadow: 2px 1px 9px 0px rgba(0,0,0,0.75);">
-                            <a class="nav-link" aria-current="page" href="#" style="color: #008c78;"><h5>Desafios</h5></a>
-                            </li>
-                            <li class="nav-item" style="background: #f1f1f1; padding-right: 60px;  box-shadow: 2px 1px 9px 0px rgba(0,0,0,0.75);">
-                            <a class="nav-link" href="#" style="color: #008c78;"><h5>NFT</h5></a>
-                            </li>
-                            <li class="nav-item" style="background: #f1f1f1; padding-right: 60px;  box-shadow: 2px 1px 9px 0px rgba(0,0,0,0.75);">
-                            <a class="nav-link" href="#" style="color: #008c78;"><h5>Dapp</h5></a>
-                            </li>
-                            <li class="nav-item" style="background: #f1f1f1; padding-right: 60px;  box-shadow: 2px 1px 9px 0px rgba(0,0,0,0.75);">
-                            <a class="nav-link " href="#" style="color: #008c78;">
-                                <h5>Delfi</h5>
-                            </a>
-                            </li>
-                            <li class="nav-item" style="background: #f1f1f1; padding-right: 60px;  box-shadow: 2px 1px 9px 0px rgba(0,0,0,0.75);">
-                                <a class="nav-link " href="#" style="color: #008c78;">
-                                    <h5>Blockchain</h5>
-                                </a>
-                            </li>
-                            <li class="nav-item" style="background: #f1f1f1; padding-right: 60px;  box-shadow: 2px 1px 9px 0px rgba(0,0,0,0.75);">
-                                <a class="nav-link" href="#" style="color: #008c78;"><h5>Wallet</h5></a>
-                            </li>
-                        </ul>
+
+                                            <!-- **** -->
+                   
+                    <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active espacios">
+                          
+                            <!-- *** -->
+                                <div class="row">
+                                    <div class="col-12 col-md-4 paneles" align="center">
+                                        <a class="nav-link" aria-current="page" href="#" style="color: #008c78;"><h5>Desafios</h5></a>
+                                    </div>
+                                    <div class="col-12 col-md-4 paneles" align="center">
+                                        <a class="nav-link" href="#" style="color: #008c78;"><h5>NFT</h5></a>
+                                    </div>
+                                    <div class="col-12 col-md-4 paneles" align="center">
+                                        <a class="nav-link" href="#" style="color: #008c78;"><h5>Dapp</h5></a>
+                                    </div>
+                                </div>
+                            <!-- ****** -->
+
+                          </div>
+                          <div class="carousel-item espacios">
+                           
+                            <div class="row">
+                                <div class="col-12 col-md-4 paneles" align="center">
+                                    <a class="nav-link " href="#" style="color: #008c78;">
+                                        <h5>Delfi</h5>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4 paneles" align="center">
+                                    <a class="nav-link " href="#" style="color: #008c78;">
+                                        <h5>Blockchain</h5>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4 paneles" align="center">
+                                    <a class="nav-link" href="#" style="color: #008c78;"><h5>Wallet</h5></a>
+                                </div>
+                            </div>
+                
+                          </div>
+                        
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                         <!--  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span> -->
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                         <!--  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span> -->
+                        </button>
+                      </div>
+                    <!-- **** -->
+
+             
+
+
+
+
                         <!-- *** -->
                     </div>
 
@@ -197,66 +266,91 @@
                     <br>
                     <div class="col-md-12" style="background-color: #f1f1f1;     padding: 30px;">
                         
-                        <div class="row">
-                            <!-- *** -->
-                            <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <img src="assets/newimg/b1.png" alt="" class="img-fluid">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <br>
-                                        <h5 style="color: #08907a;">Temporada 1</h5>
-                                    </div>
-                                    <div class="col-md-6" align="center">
-                                        <br>
-                                        <div class="btn_enter">
-                                            <h6>ENTER</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- *** -->
-                              <!-- *** -->
-                              <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <img src="assets/newimg/b1.png" alt="" class="img-fluid">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <br>
-                                        <h5 style="color: #08907a;">Temporada 4</h5>
-                                    </div>
-                                    <div class="col-md-6" align="center">
-                                        <br>
-                                        <div class="btn_enter">
-                                            <h6>ENTER</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                         <!-- **** -->
+                   
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
                             <!-- *** -->
 
-                              <!-- *** -->
-                              <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <img src="assets/newimg/b1.png" alt="" class="img-fluid">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <br>
-                                        <h5 style="color: #08907a;">Temporada 3</h5>
-                                    </div>
-                                    <div class="col-md-6" align="center">
-                                        <br>
-                                        <div class="btn_enter">
-                                            <h6>ENTER</h6>
+                            <div class="row">
+
+                                <!-- *** -->
+                                <div class="col-12 col-md-6 panelimagen">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <img src="assets/newimg/b1.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <br>
+                                            <h5 style="color: #08907a;">Temporada 1</h5>
+                                        </div>
+                                        <div class="col-md-6" align="center">
+                                            <br>
+                                            <div class="btn_enter">
+                                                <h6>ENTER</h6>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- *** -->
+                                  <!-- *** -->
+                                  <div class="col-12 col-md-6 panelimagen">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <img src="assets/newimg/b1.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <br>
+                                            <h5 style="color: #08907a;">Temporada 4</h5>
+                                        </div>
+                                        <div class="col-md-6" align="center">
+                                            <br>
+                                            <div class="btn_enter">
+                                                <h6>ENTER</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- *** -->
+    
+                                
                             </div>
                             <!-- *** -->
+                          </div>
+                          <div class="carousel-item">
+                            <!-- *** -->
+                                <div class="row">
+                                    <!-- *** -->
+                                    <div class="col-12 col-md-6 panelimagen">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img src="assets/newimg/b1.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <br>
+                                                <h5 style="color: #08907a;">Temporada 3</h5>
+                                            </div>
+                                            <div class="col-md-6" align="center">
+                                                <br>
+                                                <div class="btn_enter">
+                                                    <h6>ENTER</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- *** -->
+                                </div>
+                            <!-- *** -->
+                          </div>
+                          
                         </div>
+                        
+                      </div>
+                    <!-- **** -->
+   
+
+                       
 
                     </div>
 
@@ -282,10 +376,15 @@
                     <br>
                     <br>
                     <div class="col-md-12" style="background-color: #f1f1f1;     padding: 30px;">
-                        
-                        <div class="row">
+
+                         <!-- **** -->
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                           <!-- *** -->
+                           <div class="row">
                             <!-- *** -->
-                            <div class="col-md-4">
+                            <div class="col-12 col-md-6 panelexpositores">
                                 <div class="row">
                                     <div class="col-md-12" style="background: #008c78; padding: 12px;">
                                         <img src="assets/newimg/e1.png" alt="" class="img-fluid">
@@ -299,7 +398,7 @@
                             </div>
                             <!-- *** -->
                              <!-- *** -->
-                             <div class="col-md-4">
+                             <div class="col-12 col-md-6 panelexpositores">
                                 <div class="row">
                                     <div class="col-md-12" style="background: #008c78; padding: 12px;">
                                         <img src="assets/newimg/e2.png" alt="" class="img-fluid">
@@ -313,8 +412,15 @@
                             </div>
                             <!-- *** -->
 
-                             <!-- *** -->
-                             <div class="col-md-4">
+                             
+                        </div>
+                            <!-- *** -->
+                          </div>
+                          <div class="carousel-item">
+                           <!-- *** -->
+                           <div class="row">
+                                <!-- *** -->
+                             <div class="col-12 col-md-6 panelexpositores">
                                 <div class="row">
                                     <div class="col-md-12" style="background: #008c78; padding: 12px;">
                                         <img src="assets/newimg/e3.png" alt="" class="img-fluid" >
@@ -327,7 +433,16 @@
                                 </div>
                             </div>
                             <!-- *** -->
+                           </div>
+                           <!-- *** -->
+                          </div>
+                        
                         </div>
+                       
+                      </div>
+                    <!-- **** -->
+                        
+                      
 
                     </div>
 

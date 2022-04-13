@@ -178,3 +178,373 @@ tr{
 	height: 40px;
 }
 /* **** */
+
+
+/* ***btn movil*** */
+
+.myButtonmovil {
+	box-shadow:inset 0px 1px 0px 0px #008c77;
+	background:linear-gradient(to bottom, #008c77 5%, #008c77 100%);
+	background-color:#008c77;
+	border-radius:3px;
+	border:1px solid #008c77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:10px 24px;
+	text-decoration:none;
+
+}
+.myButtonmovil:hover {
+	background:linear-gradient(to bottom, #008c77 5%, #008c77 100%);
+	background-color:#008c77;
+}
+.myButtonmovil:active {
+	position:relative;
+	top:1px;
+}
+
+.myButtonmovil2 {
+	box-shadow:inset 0px 1px 0px 0px #008c77;
+	border-radius:3px;
+	border:1px solid #008c77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:10px 24px;
+	text-decoration:none;
+	color: #000;
+}
+.myButtonmovil2:hover {
+	background:linear-gradient(to bottom, #008c77 5%, #008c77 100%);
+	background-color:#008c77;
+}
+.myButtonmovil2:active {
+	position:relative;
+	top:1px;
+}
+div {
+	display: block;
+}
+header {
+    display: block;
+}
+
+.div01{
+	width: 75%;
+	float: left;
+}
+.div02{
+	width:25%;
+	float: right;
+}
+.div03{
+	width: 75%;
+}
+
+
+/* fin btn movil*** */
+@media screen and (min-width: 992px) {
+	.escritorio{
+		display: block;
+	}
+	div .movil{
+		display: none;
+	
+	}
+	.control{
+		display: none;
+	}
+	.control2{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 991px) {
+
+	.control{
+		display: block;
+		float: right;
+		margin-top: 5px;
+		color: #000;
+	}
+	.control2{
+		display: block;
+		float: left;
+		margin-top: 5px;
+		color: #000;
+	}
+	.div01{
+		width: 100%;
+		float: left;
+	}
+	.div02{
+		width:100%;
+		float: right;
+	}
+	.div03{
+		width: 100%;
+	}
+
+	.escritorio{
+		display: none;
+	}
+	.movil{
+		display: block;
+	}
+
+.navbar-brand{
+	margin-right: 50%;
+	/* right: 70%; */
+/*     position: absolute; */
+}
+
+.paneles{
+	background: #f1f1f1;   
+	padding-right: 60px;  
+	box-shadow: 2px 1px 9px 0px rgba(0,0,0,0.75);
+}
+.espacios{
+	height: 120px;
+    padding-top: 20px;
+}
+
+.dropdown-content {
+	left: -160px;
+}
+.table{
+	width: 100%;
+}
+.table tr{
+	background-color: #ededed;
+	padding: 0px;
+}
+.btnclass{
+	width: 30%;
+}
+.btnclass2{
+	width: 30%;
+}
+.btnclass3{
+	width: 30%;
+}
+.btnclass p{
+	font-size: 12px;
+}
+.btnclass2 p{
+	font-size: 12px;
+}
+.btnclass3 p{
+	font-size: 12px;
+}
+
+
+}
+
+@media screen and (max-width: 824px) {
+
+	.navbar-brand{
+	  /*   position: absolute; */
+	 
+		margin: 0px;
+		margin-right: 50%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	.navbar-brand{
+		margin-right: 50%;
+	/*     position: absolute; */
+    /* 	right: 65%; */
+	/* 	margin: 0px; */
+	}
+	.paneles{
+		width: 30%;
+	}
+	.panelimagen{
+		width: 50%;
+	}
+	.panelexpositores{
+		width: 50%;
+	}
+	.panelmenu{
+		width: 30%;
+	}
+	.panelmenu0{
+		width: 1%;
+	}
+	.panelmenu3{
+		width: 45%;
+	}
+
+	.panelsession0{
+		width: 30%;
+	}
+	.panelsession1{
+		width: 50%;
+	}
+	.panelsession2{
+		width: 20%;
+	}
+	.subpanel{
+		width: 50%;
+	}
+	.subpanel3{
+		width: 100%;
+	}
+	.myButtonmovil{
+		padding: 0px;
+	}
+	.myButtonmovil2{
+		padding: 0px;
+	}
+}
+
+@media screen and (max-width: 590px) {
+
+	.navbar-brand{
+	/*     position: absolute; */
+    	right: 60%;
+	/* 	margin: 0px; */
+	}
+	.paneles h5{
+		font-size: 12px;
+	}
+}
+
+
+@media screen and (max-width: 518px) {
+
+	.navbar-brand{
+/* 	    position: absolute; */
+    	right: 55%;
+	/* 	margin: 0px; */
+	}
+
+	.panelmenu{
+		width: 30%;
+	}
+	.panelmenu0{
+		width: 1%;
+	}
+	.panelmenu3{
+		width: 100%;
+	}
+	.btn-lang{
+		width: 100%;
+	}
+	.items{
+		margin-left: 25%;
+	}
+	.espaciado{
+		margin-top: 40px;
+	}
+}
+
+
+@media screen and (max-width: 459px) {
+
+	.navbar-brand{
+/* 	    position: absolute; */
+    	right: 68%;
+	/* 	margin: 0px; */
+		
+	}
+
+	.navbar-home .logo {
+		min-width: 80px;
+		width: 80px;
+	}
+
+	.panelimagen h5{
+		font-size: 12px;
+	}
+
+	.btnclass{
+		width: 100%;
+	}
+	.btnclass2{
+		width: 100%;
+	}
+	.btnclass3{
+		width: 100%;
+	}
+	
+}
+
+
+@media screen and (max-width: 392px) {
+
+	.navbar-brand{
+/* 	    position: absolute; */
+    	right: 65%;
+	/* 	margin: 0px; */
+		
+	}
+	.paneles{
+		width: 30%;
+		padding: 0px;
+	}
+	.paneles h5{
+		font-size: 8px;
+	}
+
+	.subpanel{
+		width: 100%;
+	}
+	.panelsession0{
+		width: 100%;
+	}
+	.panelsession1{
+		width: 100%;
+	}
+	.panelsession2{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 380px) {
+
+	.navbar-brand{
+	    position: inherit;
+    	right: 20%;
+		
+		
+	}
+
+	.navbar-home .logo {
+		min-width: 150px;
+		width: 150px;
+	}
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 310px) {
+
+	.items{
+		margin-left: 15%;
+	}
+	.panelimagen h5{
+		font-size: 7px;
+	}
+}
+
+@media screen and (max-width: 258px) {
+
+	.items{
+		margin-left: 0%;
+	}
+
+}
+
+
